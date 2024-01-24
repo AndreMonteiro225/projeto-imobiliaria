@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana;
+}
+
+.secao-sobre, .secao-inicio, .secao-banner, .secao-servicos, .secao-corretores, .secao-contato{
+    text-align: center;
+}
+
+.secao-inicio {
+    background-color: #b0ddfc;
+    padding-bottom: 30px;
+}
+
+.secao-inicio a {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.secao-banner {
+    margin: 35px auto;
+}
+
+.secao-sobre {
+    margin: 10px auto;
+}
+
+.secao-sobre h2, .secao-sobre span, .secao-corretores h3, .secao-corretores span{
+    font-weight: bold;
+    color: #1d80c1;
+}
+
+.secao-sobre p, .secao-corretores p{
+    text-align: justify;
+    margin: 10px auto;
+    width: 1000px;
+}
+
+.img-assinatura {
+    width: 450px
+}
+
+
+.secao-servicos, .secao-contato {
+    color: white;
+    background-color: #1d80c1;
+    padding: 100px;
+    line-height: 40px;
+}
+
+.secao-servicos ul{
+    list-style: none;    text-align: center;
+    font-size: 22px;
+}
+
+.secao-servicos span{
+    color: yellow;
+    font-weight: bold;
+}
+
+.secao-servicos p {
+    font-size: 22px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.secao-corretores img{
+    width: 350px;
+}
+
+.secao-contato p {
+    background-color: black;
+    padding: 5px;
+    width: 800px;
+    margin: 5px auto;
+}
+
+.secao-contato span{
+    color: yellow;
+    font-weight: bold;
+}
+
+.secao-contato ul {
+    margin: 40px auto;
+}
+
+.secao-contato a {
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 6px;
+    border-radius: 8px;
+    border: 2px solid #1d80c1;
+}
